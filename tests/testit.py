@@ -7,6 +7,7 @@ class RunChromeTests():
     # http://chromedriver.storage.googleapis.com/index.html
 
     def test(self):
+        # Edit driver location with yours
         driverLocation = "/Users/mehmetgok/Documents/drivers/chromedriver_mac64"
         os.environ["webdriver.chrome.driver"] = driverLocation
 
